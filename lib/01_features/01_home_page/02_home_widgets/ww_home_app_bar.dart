@@ -2,7 +2,9 @@ import 'package:edu_class/03_widgets/ww_text.dart';
 import 'package:edu_class/04_utils/app_colors.dart';
 import 'package:edu_class/04_utils/app_images.dart';
 import 'package:edu_class/04_utils/constant.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -40,6 +42,16 @@ class HomeAppBar extends StatelessWidget {
               colors: [Color(0xFF1177E1), Colors.transparent],
             )),
           ),
+          Positioned(
+            bottom: -30,
+            child: SizedBox(
+              height: 200,
+              width: 200,
+              child: Image.asset(
+                AppImages.homeSettings,
+              ),
+            ),
+          ),
           const DecoratedBox(
             decoration: BoxDecoration(
                 gradient: LinearGradient(
@@ -74,15 +86,13 @@ class UserHelpWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Stack(
-          alignment: Alignment.bottomCenter,
-          children: [
-            Image.asset(
-              AppImages.homePerson,
-              width: 100.w,
-              height: 100.w,
-            ),
-          ],
+        Positioned(
+          bottom: -10,
+          child: Image.asset(
+            AppImages.homePerson,
+            width: 100.w,
+            height: 100.w,
+          ),
         ),
         Expanded(
           child: Column(
