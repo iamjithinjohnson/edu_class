@@ -46,7 +46,7 @@ class HomeAppBar extends StatelessWidget {
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
               stops: [0.7, 1],
-              colors: [Colors.transparent, Color.fromARGB(255, 36, 81, 141)],
+              colors: [Colors.transparent, Color(0xFF1177E1)],
             )),
           ),
           Padding(

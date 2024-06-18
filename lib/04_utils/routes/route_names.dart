@@ -1,3 +1,4 @@
 class RouteNames {
-  static const String loginPage = '/';
+  static const String homePage = '/homePage';
+  static const String mainPage = '/';
 }

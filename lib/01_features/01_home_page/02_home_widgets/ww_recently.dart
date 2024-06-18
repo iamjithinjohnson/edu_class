@@ -1,3 +1,4 @@
+import 'package:edu_class/03_widgets/widgets.dart';
 import 'package:edu_class/03_widgets/ww_text.dart';
 import 'package:edu_class/04_utils/app_colors.dart';
 import 'package:edu_class/04_utils/app_images.dart';
@@ -23,10 +24,7 @@ class RecentlyWidget extends StatelessWidget {
         Padding(
           padding: screenWidth,
           child: DecoratedBox(
-            decoration: BoxDecoration(
-                borderRadius: const BorderRadius.all(Radius.circular(12)),
-                color: cWhite,
-                border: Border.all(color: cStrokeBorder)),
+            decoration: borderCurve(),
             child: Padding(
               padding: const EdgeInsets.all(10),
               child: Row(

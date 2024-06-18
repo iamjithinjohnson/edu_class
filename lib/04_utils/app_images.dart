@@ -6,12 +6,13 @@ class AppImagesSvg {
   static const home = '$base/home.svg';
   static const listening = '$base/listening.svg';
   static const mentors = '$base/mentors.svg';
-  static const myCourse = '$base/my_course.svg';
+  static const myCourse = '$base/my_courses.svg';
   static const pen = '$base/pen.svg';
   static const profile = '$base/profile.svg';
   static const search = '$base/search.svg';
   static const speak = '$base/speak.svg';
   static const bellIcon = '$base/bell_icon.svg';
+  static const headphone = '$base/headphone.svg';
 }
 
 class AppImages {
@@ -22,4 +23,7 @@ class AppImages {
   static const backgroundGradient = '$base/background_gradient.png';
   static const homeAppbarImage = '$base/home_app_bar_image.png';
   static const homePlayImage = '$base/play_image.png';
+  static const homeMentorImage = '$base/find_mentor_image.png';
+  static const homePopularCourses = '$base/popular_courses.png';
+  static const homeTakeOnline = '$base/take_online.png';
 }
