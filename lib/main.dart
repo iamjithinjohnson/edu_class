@@ -1,14 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 // import 'package:edu_class/04_utils/appthemes.dart';
-import 'package:edu_class/04_utils/injection/injection.dart';
 import 'package:edu_class/04_utils/routes/app_routes.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // DatabaseHelper.instance;
   await ScreenUtil.ensureScreenSize();
-  configureLocalDependancies();
   runApp(MyApp());
 }
 

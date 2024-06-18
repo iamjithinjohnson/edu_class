@@ -9,6 +9,8 @@ const primaryColor = Colors.blue;
 Color cLightGrey = Colors.grey[200]!;
 const cPrimary = Color(0xff5783db);
 const cWhite = Color(0xFFFFFFFF);
-const cLightGreen = Color(0xff3FC0B5);
 
+const cBackground = Color(0xffF4F7FA);
 const cBlack = Colors.black;
+const cStrokeBorder = Color(0xFFE3E7EE);
+const cDarkGrey = Color(0xff6A7487);

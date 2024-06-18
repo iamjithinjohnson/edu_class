@@ -1,6 +1,5 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:edu_class/04_utils/routes/app_routes.gr.dart';
-import 'package:edu_class/04_utils/routes/guards.dart';
 import 'package:edu_class/04_utils/routes/route_names.dart';
 
 @AutoRouterConfig()

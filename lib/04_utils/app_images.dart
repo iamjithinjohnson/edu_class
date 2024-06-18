@@ -1,4 +1,4 @@
-class AppImages {
+class AppImagesSvg {
   static const base = 'assets/svg';
   static const book = '$base/book.svg';
   static const books = '$base/books.svg';
@@ -12,4 +12,14 @@ class AppImages {
   static const search = '$base/search.svg';
   static const speak = '$base/speak.svg';
   static const bellIcon = '$base/bell_icon.svg';
+}
+
+class AppImages {
+  static const base = 'assets/img';
+  static const homePerson = '$base/home_person.png';
+  static const homeSettings = '$base/home_settings.png';
+  static const homeBackground = '$base/home_background.png';
+  static const backgroundGradient = '$base/background_gradient.png';
+  static const homeAppbarImage = '$base/home_app_bar_image.png';
+  static const homePlayImage = '$base/play_image.png';
 }
