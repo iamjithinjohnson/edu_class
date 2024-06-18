@@ -1,0 +1,5 @@
+bricks:
+  masontest:
+    git:
+      url: "https://github.com/iamjithinjohnson/auto_flutter"
+      path: masontest
