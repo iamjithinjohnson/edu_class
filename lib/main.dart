@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      designSize: const Size(325, 640),
+      designSize: const Size(360, 640),
       minTextAdapt: true,
       builder: (context, snapshot) {
         return MaterialApp.router(
